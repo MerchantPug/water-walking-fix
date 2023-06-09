@@ -1,7 +1,7 @@
 package io.github.apace100.wwfix;
 
-import net.minecraft.block.Block;
-import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.phys.shapes.VoxelShape;
 
 public final class FluidShapes {
 
@@ -10,7 +10,7 @@ public final class FluidShapes {
     static {
         VOXEL_SHAPES = new VoxelShape[16];
         for(int i = 0; i < 16; i++) {
-            VOXEL_SHAPES[i] = Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, i, 16.0);
+            VOXEL_SHAPES[i] = Block.box(0.0, 0.0, 0.0, 16.0, i, 16.0);
         }
     }
 }

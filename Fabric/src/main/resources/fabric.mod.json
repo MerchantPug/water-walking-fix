@@ -6,7 +6,8 @@
   "name": "Water Walking Fix",
   "description": "Fixes the hitbox of flowing fluids and fluidlogged blocks for entities that can walk on them.",
   "authors": [
-    "Apace"
+    "Apace",
+    "MerchantPug"
   ],
 
   "license": "MIT",
