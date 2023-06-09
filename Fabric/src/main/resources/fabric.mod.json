@@ -11,7 +11,7 @@
   ],
 
   "license": "MIT",
-  "icon": "assets/wwfix/icon.png",
+  "icon": "wwfix.png",
 
   "environment": "*",
   "mixins": [

@@ -6,7 +6,7 @@ license="MIT"
 modId="wwfix"
 version="${file.jarVersion}"
 displayName="Water Walking Fix"
-logoFile="assets/wwfix/icon.png"
+logoFile="wwfix.png"
 authors="Apace100, MerchantPug"
 description='''
 Fixes the hitbox of flowing fluids and fluidlogged blocks for entities that can walk on them.
