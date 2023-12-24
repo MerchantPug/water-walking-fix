@@ -1,6 +1,7 @@
 package io.github.apace100.wwfix.mixin;
 
 import io.github.apace100.wwfix.FluidShapes;
+import io.github.apace100.wwfix.FluidStateHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.state.BlockBehaviour;
